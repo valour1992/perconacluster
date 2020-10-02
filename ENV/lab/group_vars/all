@@ -1,0 +1,32 @@
+hosts_database:
+    - '127.0.0.1   localhost'
+    - '::1         localhost'
+    - '192.168.118.140 percona1'
+    - '192.168.118.141 percona2'
+    - '192.168.118.142 percona3'
+
+
+dns:
+    - '8.8.8.8'
+
+ntp_debian:
+    - '0.debian.pool.ntp.org iburst'
+    - '1.debian.pool.ntp.org iburst'
+    - '2.debian.pool.ntp.org iburst'
+    - '3.debian.pool.ntp.org iburst'
+
+ntp_centos:
+    - '0.debian.pool.ntp.org iburst'
+    - '1.debian.pool.ntp.org iburst'
+    - '2.debian.pool.ntp.org iburst'
+    - '3.debian.pool.ntp.org iburst'
+proxy:
+    package: ''
+    csb_http: ''
+    csb_https: ''
+    mail: ''
+
+percona_cluster:
+    percona1: '192.168.118.140'
+    percona2: '192.168.118.141'
+    percona3: '192.168.118.142'

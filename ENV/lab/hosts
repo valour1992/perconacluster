@@ -1,0 +1,4 @@
+[backend-mysql]
+Percona1 ansible_ssh_host=192.168.118.140
+Percona1 ansible_ssh_host=192.168.118.141
+Percona1 ansible_ssh_host=192.168.118.142
